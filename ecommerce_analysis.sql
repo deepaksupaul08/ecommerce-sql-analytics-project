@@ -58,7 +58,6 @@ select round(avg(payment_value), 3) avg_odr_value
 from order_payments;
 
 
-
 -- Time-Based Sales Analysis
 -- 1. Monthly Order Trend
 select strftime('%Y-%m', order_purchase_timestamp) order_month, count(order_id) total_orders
@@ -168,7 +167,6 @@ order by customer_state;
 
 -- Data Cleaning + Professional SQL Structuring
 -- SECTION 1 — NULL VALUE ANALYSIS
-
 -- 1. Missing Delivery Dates
 select count(*) missing_delivery_date
 from orders
