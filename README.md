@@ -8,9 +8,7 @@ The objective of this project is to perform end-to-end business analysis on an e
 
 ## Tools Used
 
-* SQL (SQLite)
-* Python
-* Pandas
+* SQL Server / SSMS
 * Google Colab
 * GitHub
 
